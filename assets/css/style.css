@@ -1,0 +1,29 @@
+.titulo{
+    color: white
+}
+.nav-link{
+    color: white;
+}
+.navbar{
+    border-top: 2px solid black;
+}
+.trabajos a{
+    color: indigo;
+}
+.header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,91,1) 68%);
+}
+.tarjeta:hover{
+    transform: translate(25px);
+    transition: all 2s;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.3s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
